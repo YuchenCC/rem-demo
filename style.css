@@ -3,23 +3,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 0.42105rem; }
+  font-size: 0.5rem; }
 
 /*这是home页面*/
 .home {
   background-image: url(http://img.t.sinajs.cn/t6/skin/skin048/images/body_bg_page.jpg?id=201503261330);
-  padding-top: 1.57895rem;
+  padding-top: 1.875rem;
   width: 100%;
-  padding-bottom: 0.52632rem; }
+  padding-bottom: 0.625rem; }
 
 .IDimg {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  min-height: 1.89474rem;
-  max-height: 3.78947rem;
+  min-height: 2.25rem;
+  max-height: 4.5rem;
   border-radius: 100%;
-  margin-bottom: 0.52632rem; }
+  margin-bottom: 0.625rem; }
 
 .intro {
   display: flex;
@@ -29,78 +29,78 @@
   vertical-align: middle; }
 
 .intro > li {
-  min-width: 3.36842rem;
-  min-height: 0.89474rem;
+  min-width: 4rem;
+  min-height: 1.0625rem;
   background: pink;
   opacity: 0.6;
   display: inline-block;
   padding: 0 auto;
-  margin-top: 0.31579rem;
-  margin-bottom: 0.31579rem;
-  border-radius: 0.36842rem;
-  line-height: 0.89474rem;
+  margin-top: 0.375rem;
+  margin-bottom: 0.375rem;
+  border-radius: 0.4375rem;
+  line-height: 1.0625rem;
   text-align: center; }
 
 /*这是banner页面*/
 .bannertitile1 {
   background: deepskyblue;
-  border-radius: 0.36842rem;
-  max-width: 5.26316rem;
-  height: 0.52632rem;
-  line-height: 0.52632rem;
-  margin-bottom: 0.13158rem;
+  border-radius: 0.4375rem;
+  max-width: 6.25rem;
+  height: 0.625rem;
+  line-height: 0.625rem;
+  margin-bottom: 0.15625rem;
   margin-left: auto;
   margin-right: auto;
   text-align: center; }
 
 .bannertitile2 {
   background: lightskyblue;
-  border-radius: 0.36842rem;
-  max-width: 5.26316rem;
-  height: 0.52632rem;
-  line-height: 0.52632rem;
+  border-radius: 0.4375rem;
+  max-width: 6.25rem;
+  height: 0.625rem;
+  line-height: 0.625rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 0.39474rem;
+  margin-bottom: 0.46875rem;
   text-align: center; }
 
 .banner {
   background-image: url(http://i2.buimg.com/567571/4ff5edfc13005a1a.jpg);
   background-size: contain;
-  padding-top: 0.52632rem;
-  padding-bottom: 0.26316rem; }
+  padding-top: 0.625rem;
+  padding-bottom: 0.3125rem; }
 
-@media (min-width: 10rem) {
+@media (min-width: 380px) {
   .banner {
-    padding-top: 1.31579rem; }
+    padding-top: 1.5625rem; }
   .bannertitle {
     display: flex;
     justify-content: center;
-    margin-bottom: 0.52632rem; }
+    margin-bottom: 0.625rem; }
   .bannertitile1, .bannertitile2 {
     background: lightskyblue;
-    min-width: 5.26316rem;
+    min-width: 6.25rem;
     margin: 0;
-    border-radius: 0.36842rem 0 0 0.36842rem;
+    border-radius: 0.4375rem 0 0 0.4375rem;
     text-align: right; }
   .bannertitile2 {
     text-align: left;
-    border-radius: 0 0.36842rem 0.36842rem 0; } }
+    border-radius: 0 0.4375rem 0.4375rem 0; } }
 
 .bannerAD1, .bannerAD2 {
   background: rgba(103, 103, 103, 0.4);
   color: white;
-  border-radius: 0.36842rem;
-  max-width: 10.52632rem;
-  padding-left: 0.42105rem;
-  padding-right: 0.42105rem;
+  border-radius: 0.4375rem;
+  max-width: 12.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 0.39474rem;
+  margin-bottom: 0.46875rem;
   text-align: center; }
 
 .bannerAD2 {
-  margin-bottom: 0.52632rem; }
+  margin-bottom: 0.625rem; }
 
 /*这是showlist页面*/
 .showlist {
@@ -112,38 +112,38 @@
 
 .showlistbranch {
   display: inline-block;
-  margin-top: 0.78947rem;
-  padding: 0.78947rem;
+  margin-top: 0.9375rem;
+  padding: 0.9375rem;
   text-align: center; }
 
 .listID {
-  min-width: 6.57895rem;
-  min-height: 0.63158rem;
-  margin-top: 0.52632rem;
+  min-width: 7.8125rem;
+  min-height: 0.75rem;
+  margin-top: 0.625rem;
   background: #bcbcbc;
-  border-radius: 0.10526rem; }
+  border-radius: 0.125rem; }
 
 .listintro {
-  min-width: 3.18421rem;
-  min-height: 0.42105rem;
-  margin-top: 0.36842rem;
+  min-width: 3.78125rem;
+  min-height: 0.5rem;
+  margin-top: 0.4375rem;
   background: #ececec;
-  border-radius: 0.10526rem; }
+  border-radius: 0.125rem; }
 
 .showimg {
   background: #d8d8d8;
-  border-radius: 0.10526rem;
-  width: 7.89474rem;
-  height: 5.26316rem; }
+  border-radius: 0.125rem;
+  width: 9.375rem;
+  height: 6.25rem; }
 
 .showimg1 {
   background: #d8d8d8;
-  border-radius: 0.10526rem;
-  width: 7.89474rem;
-  height: 10.52632rem; }
+  border-radius: 0.125rem;
+  width: 9.375rem;
+  height: 12.5rem; }
 
 /*end*/
 .end > img {
   display: block;
   width: 100%;
-  margin-top: 0.52632rem; }
+  margin-top: 0.625rem; }

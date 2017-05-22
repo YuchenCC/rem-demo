@@ -1,0 +1,149 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 0.42105rem; }
+
+/*这是home页面*/
+.home {
+  background-image: url(http://img.t.sinajs.cn/t6/skin/skin048/images/body_bg_page.jpg?id=201503261330);
+  padding-top: 1.57895rem;
+  width: 100%;
+  padding-bottom: 0.52632rem; }
+
+.IDimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 1.89474rem;
+  max-height: 3.78947rem;
+  border-radius: 100%;
+  margin-bottom: 0.52632rem; }
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  vertical-align: middle; }
+
+.intro > li {
+  min-width: 3.36842rem;
+  min-height: 0.89474rem;
+  background: pink;
+  opacity: 0.6;
+  display: inline-block;
+  padding: 0 auto;
+  margin-top: 0.31579rem;
+  margin-bottom: 0.31579rem;
+  border-radius: 0.36842rem;
+  line-height: 0.89474rem;
+  text-align: center; }
+
+/*这是banner页面*/
+.bannertitile1 {
+  background: deepskyblue;
+  border-radius: 0.36842rem;
+  max-width: 5.26316rem;
+  height: 0.52632rem;
+  line-height: 0.52632rem;
+  margin-bottom: 0.13158rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+.bannertitile2 {
+  background: lightskyblue;
+  border-radius: 0.36842rem;
+  max-width: 5.26316rem;
+  height: 0.52632rem;
+  line-height: 0.52632rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.39474rem;
+  text-align: center; }
+
+.banner {
+  background-image: url(http://i2.buimg.com/567571/4ff5edfc13005a1a.jpg);
+  background-size: contain;
+  padding-top: 0.52632rem;
+  padding-bottom: 0.26316rem; }
+
+@media (min-width: 10rem) {
+  .banner {
+    padding-top: 1.31579rem; }
+  .bannertitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.52632rem; }
+  .bannertitile1, .bannertitile2 {
+    background: lightskyblue;
+    min-width: 5.26316rem;
+    margin: 0;
+    border-radius: 0.36842rem 0 0 0.36842rem;
+    text-align: right; }
+  .bannertitile2 {
+    text-align: left;
+    border-radius: 0 0.36842rem 0.36842rem 0; } }
+
+.bannerAD1, .bannerAD2 {
+  background: rgba(103, 103, 103, 0.4);
+  color: white;
+  border-radius: 0.36842rem;
+  max-width: 10.52632rem;
+  padding-left: 0.42105rem;
+  padding-right: 0.42105rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.39474rem;
+  text-align: center; }
+
+.bannerAD2 {
+  margin-bottom: 0.52632rem; }
+
+/*这是showlist页面*/
+.showlist {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.showlistbranch {
+  display: inline-block;
+  margin-top: 0.78947rem;
+  padding: 0.78947rem;
+  text-align: center; }
+
+.listID {
+  min-width: 6.57895rem;
+  min-height: 0.63158rem;
+  margin-top: 0.52632rem;
+  background: #bcbcbc;
+  border-radius: 0.10526rem; }
+
+.listintro {
+  min-width: 3.18421rem;
+  min-height: 0.42105rem;
+  margin-top: 0.36842rem;
+  background: #ececec;
+  border-radius: 0.10526rem; }
+
+.showimg {
+  background: #d8d8d8;
+  border-radius: 0.10526rem;
+  width: 7.89474rem;
+  height: 5.26316rem; }
+
+.showimg1 {
+  background: #d8d8d8;
+  border-radius: 0.10526rem;
+  width: 7.89474rem;
+  height: 10.52632rem; }
+
+/*end*/
+.end > img {
+  display: block;
+  width: 100%;
+  margin-top: 0.52632rem; }

@@ -1,0 +1,208 @@
+@function rem($a){
+    @return ($a/32)+rem
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: rem(16);
+}
+
+/*这是home页面*/
+.home
+{
+    background-image: url(http://img.t.sinajs.cn/t6/skin/skin048/images/body_bg_page.jpg?id=201503261330);
+    padding-top: rem(60);
+    width: 100%;
+    padding-bottom: rem(20);
+    
+}
+.IDimg
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: rem(72);
+    max-height: rem(144);
+    border-radius:100%;
+    margin-bottom: rem(20);
+    
+   
+}
+
+.intro
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    vertical-align:middle;
+    
+
+
+}
+.intro>li
+{
+     min-width: rem(128);
+     min-height: rem(34);
+     background:pink;
+     opacity: 0.6;
+     display: inline-block;
+     padding: 0 auto;
+     margin-top: rem(12);
+     margin-bottom: rem(12);
+     border-radius:rem(14);
+     line-height: rem(34);
+     text-align: center;
+     
+
+}
+
+
+/*这是banner页面*/
+
+.bannertitile1
+{
+    background:deepskyblue;
+    border-radius:rem(14);
+    max-width:rem(200);
+    height: rem(20);
+    line-height: rem(20);
+    margin-bottom: rem(5);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+    
+}
+.bannertitile2
+{
+    background:lightskyblue;
+    border-radius:rem(14);
+    max-width:rem(200);
+    height: rem(20);
+    line-height: rem(20);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: rem(15);
+    text-align: center;
+
+}
+.banner
+{   
+    
+    background-image: url(http://i2.buimg.com/567571/4ff5edfc13005a1a.jpg);
+    background-size:contain;
+    padding-top: rem(20);
+    padding-bottom: rem(10);
+
+     
+}
+
+@media (min-width: 380px)
+{   .banner
+    {
+        padding-top: rem(50);
+    }
+    .bannertitle
+    {
+        display: flex;
+        justify-content: center;
+        margin-bottom: rem(20);
+    }
+    .bannertitile1,.bannertitile2
+    {
+        background:lightskyblue;
+        min-width:rem(200);
+        margin: 0;
+        border-radius: rem(14) 0 0 rem(14);       
+        text-align: right;  
+    }
+    .bannertitile2
+    {
+        text-align: left;
+        border-radius: 0 rem(14) rem(14) 0;      
+    }
+}
+.bannerAD1,.bannerAD2
+{
+  
+    background:rgba(103,103,103,0.4);
+    color: white;
+    border-radius:rem(14);
+    max-width:rem(400);
+    padding-left: rem(16);
+    padding-right: rem(16);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: rem(15);
+    text-align: center;
+}
+.bannerAD2
+{ 
+    margin-bottom: rem(20);  
+}
+
+/*这是showlist页面*/
+
+.showlist
+{
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.showlistbranch
+{
+    display: inline-block;
+    margin-top: rem(30);
+    padding: rem(30);
+    text-align: center    
+}
+.listID
+{
+    min-width:rem(250);
+    min-height:rem(24);
+    margin-top: rem(20);
+    background:#bcbcbc;
+    border-radius:rem(4);
+}
+.listintro
+{
+     min-width:rem(121);
+     min-height: rem(16);
+     margin-top: rem(14);
+     background:#ececec;
+     border-radius:rem(4);
+}
+.showimg
+{
+    background:#d8d8d8;
+    border-radius:rem(4);
+    width:rem(300);
+    height: rem(200);
+ 
+}
+.showimg1
+{
+    background:#d8d8d8;
+    border-radius:rem(4);
+    width:rem(300);
+    height: rem(400);
+ 
+}
+
+/*end*/
+.end>img
+{
+    display: block;
+    width: 100%;
+    
+    margin-top: rem(20);
+  
+
+}
